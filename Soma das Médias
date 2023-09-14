@@ -1,0 +1,18 @@
+import java.util.Scanner;
+  
+public class Main {
+  public static void main(String[] args) {
+    Scanner Scanner = new Scanner(System.in);
+  
+    int media1, media2, media3, num1 = 5, num2 = 6, num3 = 7, num4 = 8;
+  
+    media1 = (num3 + num4 + num2 ) / 3; 
+    System.out.println("Média: =" + media1);
+
+    media2 = (num1 + num2 + num3 ) / 3; 
+    System.out.println("Média: =" + media2);
+
+    media3 = (media1 + media2) / 2;
+    System.out.println("Média: =" + media3);
+  }
+}
