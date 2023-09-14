@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+ // creditos ao usuário Iohannes do site GUJ (https://www.guj.com.br/) // 
+
+public class Main {
+	public static void main(String[] args){
+   short dias_do_ano = 365;
+   short dias_do_mes = 30;
+   short dias;
+   short meses;
+   short anos;
+   Scanner leitor = new Scanner(System.in);
+   
+	 System.out.println("Informe a sua idade.");
+	 System.out.print("anos: ");
+
+   anos = leitor.nextShort();
+
+   System.out.println("Informe os meses.");
+	 System.out.print("meses: ");
+
+   meses = leitor.nextShort();
+
+   System.out.println("Informe os dias.");
+	 System.out.print("dias: ");
+
+   dias = leitor.nextShort();
+
+   dias += (anos * dias_do_ano) + (meses * dias_do_mes);
+
+   System.out.println("A sua idade em dias é " + dias);
+  } 
+}  
