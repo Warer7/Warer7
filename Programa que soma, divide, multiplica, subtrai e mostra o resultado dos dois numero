@@ -1,0 +1,9 @@
+public class Main {
+  public static void main(String[] args) {
+    int a=10, b=7;
+    System.out.println("SOMA: " + a + "+" + b + "="  +  (a+b));
+    System.out.println("Multiplicacao: " + a + "*" + b + "="  +  (a*b));
+    System.out.println("Divisao: " + a + "/" + b + "="  +  (a/b));
+    System.out.println("Subtracao: " + a + "-" + b + "="  +  (a-b));
+  }
+}
